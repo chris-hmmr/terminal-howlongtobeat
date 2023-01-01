@@ -1,0 +1,25 @@
+{
+  "name": "terminal-howlongtobeat",
+  "version": "1.0.0",
+  "description": "terminal-based application to output game data from howlongtobeat.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-hmmr/terminal-howlongtobeat.git"
+  },
+  "keywords": [
+    "games",
+    "howlongtobeat",
+    "terminal",
+    "api"
+  ],
+  "author": "Christopher Huemmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-hmmr/terminal-howlongtobeat/issues"
+  },
+  "homepage": "https://github.com/chris-hmmr/terminal-howlongtobeat#readme"
+}
