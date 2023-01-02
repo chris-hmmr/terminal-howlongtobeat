@@ -27,15 +27,15 @@ function transformGameData(data) {
         table.push(
             [
                 data[i].name,
-                colors.cyan(data[i].gameplayMain),
-                colors.cyan(data[i].gameplayMainExtra),
-                colors.cyan(data[i].gameplayCompletionist)
+                colors.cyan(data[i].gameplayMain + ' hours'),
+                colors.cyan(data[i].gameplayMainExtra  + ' hours'),
+                colors.cyan(data[i].gameplayCompletionist  + ' hours')
             ]
         );
     }
 
 
-    return '\n' + table.toString() + '\n' + colors.grey(colors.grey(data[0].atDate)) + '\n\n'
+    return '\n' + table.toString() + '\n' + colors.grey('Search term was: ' + colors.grey(data[0].searchTerm)) + '\n\n'
         + colors.yellow(`[twitter: @chrishmmr] [Github: https://github.com/chris-hmmr/howlongtobeat]\n\n`);
 }
 
