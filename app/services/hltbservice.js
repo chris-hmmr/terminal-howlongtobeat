@@ -42,7 +42,7 @@ module.exports = {
 }
 
 async function search(query) {
-    let search = { ... payload }
+    let search = { ...payload }
     search.searchTerms = query
 
     try {
@@ -54,11 +54,11 @@ async function search(query) {
                     'referer': 'https://howlongtobeat.com/'
                 },
                 timeout: 20000,
-                signal,
             });
-        // console.log('Result', JSON.stringify(result.data));
+        console.log('Result', JSON.stringify(result.data));
         return result.data;
-    } catch (error) {
+    }
+    catch (error) {
         if (error) {
             throw new Error(error);
         } else if (error.response.status !== 200) {

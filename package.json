@@ -1,10 +1,16 @@
 {
   "name": "terminal-howlongtobeat",
   "version": "1.0.0",
-  "description": "terminal-based application to output game data from howlongtobeat.com",
+  "description": "terminal-based application to fetch and output game data from howlongtobeat.com",
   "main": "index.js",
+  "bin": {
+    "terminal-howlongtobeat": "bin/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js",
+    "watch": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +29,17 @@
   },
   "homepage": "https://github.com/chris-hmmr/terminal-howlongtobeat#readme",
   "dependencies": {
-    "axios": "^1.2.2"
+    "ansi_up": "^5.1.0",
+    "axios": "^1.2.2",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "body-parser": "^1.20.1",
+    "cli-table3": "^0.6.3",
+    "colors": "^1.4.0",
+    "express": "^4.18.2",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
