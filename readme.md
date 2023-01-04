@@ -33,7 +33,7 @@ terminal-howlongtobeat -g [name of game] // to fetch data for provided name
 
 ### Example
 ```sh
-terminal-howlongtobeat -g Baldurs+Gate
+terminal-howlongtobeat -g Dishonored
 ```
 ![image](https://user-images.githubusercontent.com/1536058/210653249-acbf444d-c858-4dcb-ae92-69cbc383c422.png)
 
