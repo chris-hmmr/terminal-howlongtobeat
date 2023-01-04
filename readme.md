@@ -9,7 +9,7 @@ tbd.
 
 #### CLI usage without npm package installation
 ```sh
-$ curl https://terminal-howlongtobeat.herokuapp.com/<Name of Game>
+$ curl https://terminal-howlongtobeat.herokuapp.com/<Name+of+Game>
 ```
 
 #### Example
