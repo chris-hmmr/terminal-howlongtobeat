@@ -16,8 +16,7 @@ $ curl https://terminal-howlongtobeat.herokuapp.com/<Name of Game>
 ```sh
 $ curl https://terminal-howlongtobeat.herokuapp.com/Dark+Souls
 ```
-
-<img width="711" alt="image" src="https://user-images.githubusercontent.com/1536058/210644294-4cfe2d94-d911-4554-a92d-77bce8f4773c.png">
+![image](https://user-images.githubusercontent.com/1536058/210644574-7c1f257b-2039-4675-826c-a42eace0364e.png)
 
 ### CLI usage with npm package
 You can also install terminal-howlongtobeat package from npm and run the built-in commands from command line interface (cli)
