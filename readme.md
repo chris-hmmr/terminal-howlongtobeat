@@ -2,9 +2,6 @@
 
 terminal-howlongtobeat is a terminal based application providing game length information from howlongtobeat.com for your favorite video-games!
 
-### Documentation
-tbd.
-
 ### How to use
 
 #### CLI usage without npm package installation
