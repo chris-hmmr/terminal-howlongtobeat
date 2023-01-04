@@ -30,12 +30,12 @@ npm i terminal-howlongtobeat -g
 ```sh
 terminal-howlongtobeat --help // to get help
 terminal-howlongtobeat --version  // to see the version
-terminal-howlongtobeat -g [name of game] // to fetch game length data
+terminal-howlongtobeat -g [name of game] // to fetch data for provided name
 ```
 
 ### Example
 ```sh
-terminal-howlongtobeat -g Dark Souls
+terminal-howlongtobeat -g Dark+Souls
 ```
 
 ### Tech
