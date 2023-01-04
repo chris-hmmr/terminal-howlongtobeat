@@ -1,6 +1,6 @@
 # terminal-howlongtobeat
 
-terminal-howlongtobeat is a terminal based application, providing game length information from howlongtobeat.com for your favorite video-games!
+terminal-howlongtobeat is a terminal based application providing game length information from howlongtobeat.com for your favorite video-games!
 
 ### Documentation
 tbd.
