@@ -58,7 +58,7 @@ $ npm run serve
 Want to contribute? Great! Feel free to open a PR
 
 ### Support
-If you like what you see, feel free to buy me a coffee.  ☕️
+If you like what you see, feel free to buy me a ☕️.
 
 <a href="https://www.buymeacoffee.com/chrishmmr" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a> 
 
