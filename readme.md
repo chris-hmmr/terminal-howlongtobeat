@@ -14,7 +14,7 @@ $ curl https://terminal-howlongtobeat.herokuapp.com/<Name of Game>
 
 #### Example
 ```sh
-$ curl https://terminal-howlongtobeat.herokuapp.com/Dark Souls
+$ curl https://terminal-howlongtobeat.herokuapp.com/Dark+Souls
 ```
 
 ### CLI usage with npm package
