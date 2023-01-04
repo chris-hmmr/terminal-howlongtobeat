@@ -21,7 +21,7 @@ $ curl https://terminal-howlongtobeat.herokuapp.com/Dark+Souls
 ### CLI usage with npm package
 You can also install terminal-howlongtobeat package from npm and run the built-in commands from command line interface (cli)
 
-- install cli globaly
+- install cli globally
 ```sh
 npm i terminal-howlongtobeat -g
 ```
@@ -58,6 +58,8 @@ $ npm run serve
 Want to contribute? Great! Feel free to open a PR
 
 ### Support
+If you like what you see, feel free to buy me a ☕️.
+
 <a href="https://www.buymeacoffee.com/chrishmmr" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a> 
 
 ### Enjoy! :)
