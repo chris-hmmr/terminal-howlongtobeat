@@ -35,7 +35,7 @@ function transformGameData(data) {
     }
 
 
-    return '\n' + table.toString() + '\n' + colors.grey('Search term was: ' + colors.grey(data[0].searchTerm)) + '\n\n'
+    return '\n' + table.toString() + '\n' + colors.grey('Your search term was: "' + colors.grey(data[0].searchTerm)) + '"\n\n'
         + colors.yellow(`[twitter: @chrishmmr] [Github: https://github.com/chris-hmmr/howlongtobeat]\n\n`);
 }
 

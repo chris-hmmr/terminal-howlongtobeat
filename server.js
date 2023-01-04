@@ -8,4 +8,4 @@ app.use(bodyParser());
 require('./app/routes.js')(app);
 
 app.listen(port);
-console.log('Application server is up and running on port: ' + port);
+console.log('Application is up and running on port: ' + port);
