@@ -1,9 +1,6 @@
 const Table = require('cli-table3')
 const colors = require('colors')
 colors.enable()
-const blessed = require('blessed')
-const contrib = require('blessed-contrib')
-const ansiup = require('ansi_up')
 
 module.exports = {
     transformGameData: transformGameData,
@@ -35,7 +32,7 @@ function transformGameData(data) {
     }
 
 
-    return '\n' + table.toString() + '\n' + colors.grey('Your search term was: "' + colors.grey(data[0].searchTerm)) + '"\n\n'
+    return '\n' + table.toString() + '\n' + colors.green('Your search term was: "' + data[0].searchTerm + '"') + '\n\n'
         + colors.yellow(`[twitter: @chrishmmr] [Github: https://github.com/chris-hmmr/howlongtobeat]\n\n`);
 }
 

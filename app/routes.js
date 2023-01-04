@@ -3,7 +3,7 @@ const responseTransformer = require('../app/transformer/responseTransformer')
 
 module.exports = function (app) {
     app.get('/:gameName', function (req, res) {
-        const gameName = req.params.gameName
+        const gameName = req.params.gameName.split('+').join(' ')
 
         hltbService.search(gameName.trim())
             .then((data) => {
