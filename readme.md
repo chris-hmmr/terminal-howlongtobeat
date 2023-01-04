@@ -9,12 +9,12 @@ tbd.
 
 #### CLI usage without npm package installation
 ```sh
-$ curl terminal-howlongtobeat.dev/<Name of Game>
+$ curl https://terminal-howlongtobeat.herokuapp.com/<Name of Game>
 ```
 
 #### Example
 ```sh
-$ curl terminal-howlongtobeat.dev/Dark Souls
+$ curl https://terminal-howlongtobeat.herokuapp.com/Dark Souls
 ```
 
 ### CLI usage with npm package
