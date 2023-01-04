@@ -1,7 +1,7 @@
 {
   "name": "terminal-howlongtobeat",
-  "version": "1.0.0",
-  "description": "terminal-based application to fetch and output game data from howlongtobeat.com",
+  "version": "1.0.1",
+  "description": "terminal-howlongtobeat is a terminal based application providing game length information from howlongtobeat.com for your favorite video-games.",
   "main": "index.js",
   "bin": {
     "terminal-howlongtobeat": "bin/index.js"

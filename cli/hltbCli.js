@@ -8,7 +8,7 @@ module.exports = {
 function fetchGameData(query) {
     hltbService.search(query)
         .then((data) => {
-            console.log(responseTransformer.tansformGameData(data));
+            console.log(responseTransformer.transformGameData(data));
         }).catch((error) => {
             console.log(responseTransformer.transformError(error));
         });
