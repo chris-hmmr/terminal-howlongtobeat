@@ -1,6 +1,6 @@
 # terminal-howlongtobeat
 
-terminal-howlongtobeat is a terminal based application, providing game length information from howlongtobeat.com for your favorite video-games!
+terminal-howlongtobeat is a terminal based application providing game length information from howlongtobeat.com for your favorite video-games!
 
 ### Documentation
 tbd.
@@ -9,13 +9,14 @@ tbd.
 
 #### CLI usage without npm package installation
 ```sh
-$ curl terminal-howlongtobeat.dev/<Name of Game>
+$ curl https://terminal-howlongtobeat.herokuapp.com/<Name+of+Game>
 ```
 
 #### Example
 ```sh
-$ curl terminal-howlongtobeat.dev/Dark Souls
+$ curl https://terminal-howlongtobeat.herokuapp.com/Dark+Souls
 ```
+![image](https://user-images.githubusercontent.com/1536058/210644574-7c1f257b-2039-4675-826c-a42eace0364e.png)
 
 ### CLI usage with npm package
 You can also install terminal-howlongtobeat package from npm and run the built-in commands from command line interface (cli)
@@ -30,12 +31,12 @@ npm i terminal-howlongtobeat -g
 ```sh
 terminal-howlongtobeat --help // to get help
 terminal-howlongtobeat --version  // to see the version
-terminal-howlongtobeat -g [name of game] // to fetch game length data
+terminal-howlongtobeat -g [name of game] // to fetch data for provided name
 ```
 
 ### Example
 ```sh
-terminal-howlongtobeat -g Dark Souls
+terminal-howlongtobeat -g Dark+Souls
 ```
 
 ### Tech
@@ -54,7 +55,7 @@ $ npm install
 $ npm run serve
 ```
 ### Development
-Want to contribute? Great! Feel free to open a PR.
+Want to contribute? Great! Feel free to open a PR
 
 ### Support
 <a href="https://www.buymeacoffee.com/chrishmmr" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a> 
