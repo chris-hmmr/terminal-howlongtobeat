@@ -13,6 +13,6 @@ var argv = require('yargs/yargs')(process.argv.slice(2))
 .argv
 
 if(argv.game) {
-    const gameName = argv.game.trim()
+    const gameName = argv.game.split('+').join(' ').trim()
     hltbCli.fetchGameData(gameName)
 }
