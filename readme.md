@@ -11,7 +11,7 @@ $ curl https://terminal-howlongtobeat.herokuapp.com/<Name+of+Game>
 
 #### Example
 ```sh
-$ curl https://terminal-howlongtobeat.herokuapp.com/Dark+Souls
+$ curl https://terminal-howlongtobeat.herokuapp.com/Baldurs+Gate
 ```
 ![image](https://user-images.githubusercontent.com/1536058/210644574-7c1f257b-2039-4675-826c-a42eace0364e.png)
 
