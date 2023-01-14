@@ -38,7 +38,6 @@
     "colors": "^1.4.0",
     "express": "^4.18.2",
     "howlongtobeat": "^1.7.0",
-    "terminal-link": "^3.0.0",
     "user-agents": "^1.0.1248",
     "yargs": "^17.6.2"
   },

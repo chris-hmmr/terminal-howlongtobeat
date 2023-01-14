@@ -1,6 +1,5 @@
 const Table = require('cli-table3')
 const colors = require('colors')
-const terminalLink = require('terminal-link')
 colors.enable()
 
 module.exports = {
@@ -14,8 +13,7 @@ function transformGameData(data) {
             colors.yellow('Game Name'),
             colors.yellow('Main Story'),
             colors.yellow('Main + Extra'),
-            colors.yellow('Completionist'),
-            colors.yellow('More Information')
+            colors.yellow('Completionist')
         ],
         style: {
             head: []
@@ -28,8 +26,7 @@ function transformGameData(data) {
                 data[i].name,
                 colors.cyan(data[i].gameplayMain + ' hours'),
                 colors.cyan(data[i].gameplayMainExtra  + ' hours'),
-                colors.cyan(data[i].gameplayCompletionist  + ' hours'),
-                colors.cyan(terminalLink('Click here', encodeURI(`https://www.bestgameprice.net/search?q=${data[0].searchTerm}`))),
+                colors.cyan(data[i].gameplayCompletionist  + ' hours')
             ]
         );
     }
