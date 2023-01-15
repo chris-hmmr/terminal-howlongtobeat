@@ -13,7 +13,8 @@ function transformGameData(data) {
             colors.yellow('Game Name'),
             colors.yellow('Main Story'),
             colors.yellow('Main + Extra'),
-            colors.yellow('Completionist')
+            colors.yellow('Completionist'),
+            colors.yellow('More information')
         ],
         style: {
             head: []
@@ -26,7 +27,8 @@ function transformGameData(data) {
                 data[i].name,
                 colors.cyan(data[i].gameplayMain + ' hours'),
                 colors.cyan(data[i].gameplayMainExtra  + ' hours'),
-                colors.cyan(data[i].gameplayCompletionist  + ' hours')
+                colors.cyan(data[i].gameplayCompletionist  + ' hours'),
+                colors.cyan(terminalLink('Click here', encodeURI(`https://howlongtobeat.com/game/${data[i].id}`))),
             ]
         );
     }
@@ -38,4 +40,12 @@ function transformGameData(data) {
 
 function transformError(error) {
     return `\nSorry, no game data was found for the search term provided.\n\n ${error.message}`;
+  }
+
+  function terminalLink(text, url) {
+    const OSC = '\u001B]';
+    const BEL = '\u0007';
+    const SEP = ';';
+  
+    return [OSC, '8', SEP, SEP, url, BEL, text, OSC, '8', SEP, SEP, BEL].join('');
   }
