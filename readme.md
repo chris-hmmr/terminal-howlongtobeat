@@ -13,7 +13,8 @@ $ curl https://terminal-howlongtobeat.herokuapp.com/<Name+of+Game>
 ```sh
 $ curl https://terminal-howlongtobeat.herokuapp.com/Baldurs+Gate
 ```
-![image](https://user-images.githubusercontent.com/1536058/210644574-7c1f257b-2039-4675-826c-a42eace0364e.png)
+![image](https://user-images.githubusercontent.com/1536058/212540149-03cd1671-5af3-4452-b182-9c07262f3cfd.png)
+
 
 ### CLI usage with npm package
 You can also install terminal-howlongtobeat package from npm and run the built-in commands from command line interface (cli)
@@ -35,7 +36,7 @@ terminal-howlongtobeat -g [name of game] // to fetch data for provided name
 ```sh
 terminal-howlongtobeat -g Dishonored
 ```
-![image](https://user-images.githubusercontent.com/1536058/210653249-acbf444d-c858-4dcb-ae92-69cbc383c422.png)
+![image](https://user-images.githubusercontent.com/1536058/212540201-7200e07a-4e70-4701-889b-c866a6a5a14a.png)
 
 
 ### Tech
